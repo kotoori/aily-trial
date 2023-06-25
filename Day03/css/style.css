@@ -1,0 +1,26 @@
+h2 {
+    color: red;
+    font-size: 30px;
+}
+
+/* .yellow-fontがついた要素の文字色を黄色に指定。こちらの方が優先されます */
+.yellow-font {
+    color: yellow; 
+    font-size: 20px;
+}
+
+h3 {
+    color: blue;
+    font-size: 20px;
+}
+
+.important { 
+    font-weight: bold;
+}
+
+.contents > p {
+    color: green;
+    font-size: 18px;
+    
+}
+
