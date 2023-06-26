@@ -26,4 +26,24 @@ a:hover{
     margin: auto;       /* 中心揃え */
 }
 
+.clear:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*====================================
+header
+=====================================*/
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+}
+
+
+
 
