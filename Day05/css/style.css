@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    color: #082b48;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #082b48;
+}
+
+a:hover{
+    opacity:0.7;
+}
+
+.container{
+    width: 90%;         /* つねに左右5％の余白を作る */
+    max-width: 980px;   /* 最大幅を980pxにする */
+    margin: auto;       /* 中心揃え */
+}
+
+
