@@ -96,6 +96,28 @@ about
     height: auto;
 }
 
+/*========================
+course
+=========================*/
+#course{
+    background: #e3fcf4;
+}
+.course-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-content-item{
+    width: 30%;
+}
+
+.course-content-item img{
+    margin-bottom: 5px;
+}
+
+
+
+
 
 
 
