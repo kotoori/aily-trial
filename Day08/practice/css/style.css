@@ -23,6 +23,18 @@ img{
     width: 980px;
     margin: auto;
 }
+
+.section{
+    padding: 60px 0;
+}
+
+.section-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 /*========================
 header
 =========================*/
@@ -69,3 +81,23 @@ top
 .top-subtitle{
     font-size: 1.125rem;
 }
+
+/*========================
+about
+=========================*/
+.about-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content-left,
+.about-content-right{
+    width: 48%;
+    height: auto;
+}
+
+
+
+
+
+
