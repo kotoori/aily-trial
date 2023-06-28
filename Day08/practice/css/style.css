@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*========================
+General Setting
+=========================*/
+html{
+    font-size: 100%;
+}
+
+body{
+    color: #082b48;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+    vertical-align: top;    /* 画面下の隙間を消す */
+}
+
+.container{
+    width: 980px;
+    margin: auto;
+}
+/*========================
+header
+=========================*/
+header{
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-between;
+}
+.header-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav-item{
+    margin-left: 50px;
+    line-height: 36px;
+}
+.header-nav-item a{
+    text-decoration: none;
+    color: #082b48;
+    font-size: 15px;
+    font-weight: 600;
+}
