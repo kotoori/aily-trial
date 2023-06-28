@@ -148,3 +148,13 @@ contact
     background-color: #ec6d64;
 }
 
+/*========================
+footer
+=========================*/
+footer{
+    padding: 20px 0;
+    background-color: #082b48;
+    color: #fff;
+    text-align: right;
+    font-size: 0.75rem;
+}
