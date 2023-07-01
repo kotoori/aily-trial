@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@media screen and (max-width:767px) {
+
+  /*===========================
+  General Setting
+  ============================*/
+  .flex-md{
+      display: block;
+  }
+
+  .section-title{
+    font-size: 2rem;
+  }
+  /*===========================
+  header
+  ============================*/
+
+  .header-logo{
+    margin: 0 auto 20px;
+  }
+
+  .header-nav-list-item{
+    font-size: 0.775rem;
+    margin:0 3%;
+  }
+
+  /*===========================
+  Top
+  ============================*/
+  .top-text-title{
+    font-size: 2rem;
+  }
+
+
+  /*===========================
+  about
+  ============================*/
+  .about-card-left{
+    width: 30%;
+    margin: auto;
+  }
+
+  .about-card-right{
+    width: 100%;
+  }
+
+  .about-card-right-title,
+  .about-card-right-name,
+  .about-card-right-appeal{
+    text-align: center;
+  }
+
+  .about-card-right-name{
+    font-size: 2rem;
+  }
+
+  /*===========================
+  service
+  ============================*/
+  .service-card{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /*===========================
+  Work
+  ============================*/
+  .work-card{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /*===========================
+  Contact
+  ============================*/
+  .contact-tool-icon{
+    width: 45px;
+    height: 45px;
+  } 
+
+  .contact-tool{
+    padding:0 30px;
+  }
+  .contact-tool-address{
+    width:0;
+    visibility: hidden;
+  }
+
+
+}/* max-width:767px */
