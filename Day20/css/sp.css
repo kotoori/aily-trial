@@ -86,9 +86,10 @@
 
   .contact-tool-address{
     width: 0;
-    height: 0;
-    visibility: hidden;
   }
 
+  .contact-tool-address a{
+    display: none;
+  }
 
 }/* max-width:767px */
