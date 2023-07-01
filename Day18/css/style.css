@@ -243,6 +243,18 @@ Contact
   font-size: 0.875rem;
 }
 
+.contact-tool:has(a:hover) img{
+  max-width: 110%;
+  max-height: 110%;
+  transition: all 0.1s linear;
+}
+
+.contact-tool:has(a:hover) a{
+  font-weight: bold;
+  transition: all 0.1s linear;
+}
+
+
 .contact-tool-icon a,
 .contact-tool-address a{
   display: block;
