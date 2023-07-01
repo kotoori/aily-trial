@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+/*===========================
+General Setting
+============================*/
+html {
+	font-size: 100%;
+}
+
+body {
+	color: #47555E;
+  background: #FFF;
+  font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ ProN W3", "Hiragino kaku Gothic ProN", sans-serif;
+}
+
+img {
+	max-width: 100%;
+  vertical-align: top;  /* 画面下の隙間を消す */
+}
+
+.container{
+  max-width: 980px;
+  margin: auto;
+  padding: 20px 4%;
+}
+
+.flex,
+.flex-md{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-title{
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.section-subtitle{
+  font-size: 1.125rem;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.card{
+  border: solid 1px #b0b0b0;
+  border-radius: 3px;
+}
+
+.bg-light{
+  background-color: #f8f8f8;
+}
+/*===========================
+header
+============================*/
+.header-logo{
+  width: 64px;
+  height: 64px;
+}
+
+.header-nav-list{
+  height: 100%;
+  align-items: center;
+}
+
+.header-nav-list-item{
+  margin-left: 50px;
+}
+.header-nav-list-item:hover{
+  opacity: 0.7;
+}
+
+.header-nav-list-item a{
+  display: block; /*リンク範囲を親要素いっぱいに広げる */
+  height: 100%;
+}
+
+/*===========================
+top
+============================*/
+.top{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.top-img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+
+}
+
+.top-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(255,255,255,0.5);
+  width: 85%;
+}
+
+.top-text-title{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.top-text-message{
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+/*===========================
+About
+============================*/
+.about-card{
+  padding: 20px;
+}
+
+.about-card-left{
+  width: 20%;
+}
+
+.about-card-right{
+  width: 75%;
+}
+
+.about-card-right-name{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-card-right-message{
+  margin-bottom: 20px;
+}
+
+.about-card-right-appeal{
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-card-right-appeal::before,
+.about-card-right-appeal::after{
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height:2px;
+  background-color: #47555E;
+  vertical-align: middle;
+}
+.about-card-right-appeal::before{
+  margin-right: 0.5rem;
+}
+.about-card-right-appeal::after{
+  margin-left: 0.5rem;
+}
+
+/*===========================
+About
+============================*/
+.service-card{
+  width:30%;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.service-card-title{
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*===========================
+Work
+============================*/
+.work-card{
+  width: 48%;
+}
+
+.work-card img{
+  margin-bottom: 3px;
+}
+
+.work-card-title{
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-top:solid 1px #b0b0b0
+}
+.work-card-message{
+  padding: 0 10px;
+}
+
+.work-card-link{
+  display:block;
+  width: 50%;
+  padding:10px;
+  margin:20px auto;
+  text-align: center;
+  color: #009dff;
+  font-weight: bold;
+  border: solid 1px #009dff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.work-card-link:hover{
+  color: #FFF;
+  background-color: #009dff;
+  transition: background-color 0.3s linear;
+}
+
+/*===========================
+Contact
+============================*/
+.flex-center{
+  justify-content: center;
+}
+
+.contact-message{
+  text-align: center;
+  margin: 30px auto;
+}
+
+.contact-tool-icon{
+  width: 80px;
+  height: 90px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-tool-address{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  font-size: 0.875rem;
+}
+
+.contact-tool:has(a:hover) img{
+  max-width: 110%;
+  max-height: 110%;
+  transition: all 0.1s linear;
+}
+
+.contact-tool:has(a:hover) a{
+  font-weight: bold;
+  transition: all 0.1s linear;
+}
+
+
+.contact-tool-icon a,
+.contact-tool-address a{
+  display: block;
+  height: 100%;
+}
+
+/*===========================
+footer
+============================*/
+footer{
+  background-color: #47555E;
+}
+
+.footer-text{
+  color: #FFF;
+  font-size: 0.625rem;
+  text-align: center;
+}
+
+@
