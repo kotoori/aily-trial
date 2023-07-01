@@ -74,16 +74,19 @@
   /*===========================
   Contact
   ============================*/
+  .contact-tool{
+    padding:0 5vw;
+    align-items: center;
+  }
+
   .contact-tool-icon{
     width: 45px;
     height: 45px;
-  } 
-
-  .contact-tool{
-    padding:0 30px;
   }
+
   .contact-tool-address{
-    width:0;
+    width: 0;
+    height: 0;
     visibility: hidden;
   }
 
