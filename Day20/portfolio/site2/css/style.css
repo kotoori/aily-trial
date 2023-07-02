@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1,h2{
+    font-family: "ROLAchan", serif;
+}
+@font-face {
+    font-family: "ROLAchan";
+    src: url(../fonts/ROLAchan-Regular.otf) format("opentype");
+    font-display: swap; /* フォントファイルを読み込むまで代替フォントを使って表示 */
+}
+
+.top{
+    background-image: url(../img/top.png);
+    background-size: cover;
+}

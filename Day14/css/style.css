@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #082b48;
+}
+
+.navbar-light .navbar-brand{ /* Bootstrapの指定色を打ち消し */
+  color: #082b48;
+}
+
+.site-title{
+  font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link { /* Bootstrapの指定色を打ち消し */
+  color: #082b48;
+}
+
+.bg-green{
+  background-color: #e3fcf4;
+}
+
+.form-register{
+  border: solid 3px #d8d8d8;
+  border-radius: 999px;
+}
+
+.btn-register{
+  margin: auto;
+  display: block;
+  background-color: #ec6d64;
+  font-size: 1.5rem;
+
+}
+
+#top{
+  background-image: url(../img/main-vsual-nontitle.png);
+  background-size: cover;
+}

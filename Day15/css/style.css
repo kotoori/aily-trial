@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*=======================
+General Settings
+========================*/
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: "Open Sans", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino kaku Gothic ProN", sans-serif;
+    color: #212529;
+}
+
+li{
+    list-style: none;
+}
+
+/*=======================
+header
+========================*/
+.header-logo{
+    height: 36px;
+    width: 36px;
+}
+
+/*=======================
+top
+========================*/
+.top{
+    background-image: url(../images/handshake.jpg);
+    background-size: cover;
+}
+
+.section-subtitle{
+    color: #686868
+}
+/*=======================
+about
+========================*/
+
+.card-flex-left{
+    width: 20%;
+}
+
+.card-flex-right{
+    width: 70%;
+}
+.about-card-subtitle::before,
+.about-card-subtitle::after{
+    content: "";
+    background-color: #212529;
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    vertical-align: middle;
+}
+
+.about-card-subtitle::before{
+    margin-right: 10px;
+}
+.about-card-subtitle::after{
+    margin-left: 10px;
+}
+/*=======================
+contact
+========================*/
+
+.contact-tools-icon{
+    width: 80px;
+    height: 80px;
+}
+
+/*=======================
+SP用
+========================*/
+
+@media screen and (max-width:767px) {
+    .card-flex-left{
+        height: 20%;
+    }
+
+    .card-flex-right{
+        width: 90%;
+    }
+}
