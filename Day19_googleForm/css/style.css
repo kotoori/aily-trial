@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+html {
+	font-size: 100%;
+}
+
+body {
+	color: #333;
+  background: #FFF;
+  font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ ProN W3", "Hiragino kaku Gothic ProN", sans-serif;
+}
+
+img {
+	max-width: 100%;
+  height: auto;
+  vertical-align: top;  /* 画面下の隙間を消す */
+}
+
+.container{
+  max-width: 900px;
+  margin: 80px auto;
+}
+
+.section-title{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form__item{
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.form__item label{
+  display: block;
+  width: 180px;
+  font-size: 1rem;
+  padding-top: 10px;
+}
+
+.form__item input,
+.form__item textarea{
+  display: block;
+  width: calc(100% - 180px);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 12px;
+}
+
+.form__item input::placeholder,
+.form__item textarea::placeholder{
+  color: #aaa;
+}
+
+.form__item input{
+  height: 50px;
+}
+.form__item textarea{
+  height: 300px;
+  padding-top: 16px;
+}
+
+.submit-btn{
+  display: block;
+  width: 200px;
+  height: 60px;
+  background-color: #2d5daf;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 8px;;
+}
+
+.submit-message{
+  margin: 40px auto;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.submit-success {
+  color: #2d5daf;
+  display: none;
+}
+
+.submit-failed {
+  color: #d70e0e;
+  display: none;
+}
+

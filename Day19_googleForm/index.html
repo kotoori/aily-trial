@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- ページ属性情報 -->
+  <title>Googleフォーム埋め込み練習</title>
+  <meta name="description" content="Googleフォームを静的サイトに埋め込む練習" />
+
+  <!-- favicon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- css --->
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <section class="contact">
+      <h2 class="section-title">お問い合わせ</h2>
+      <form method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe9l-KsdSmVEglUGMAwGJVOOeAOOaG7TAiFqxJ1Uhc7nrFUOw/formResponse" id="form">
+        <div class="form__item">
+          <label for="name">お名前</label>
+          <input type="text" name="entry.2118591656" id="name" placeholder="日本　太郎" required>
+        </div>
+        <div class="form__item">
+          <label for="email">ご連絡先</label>
+          <input type="email" name="entry.911472388" id="email" placeholder="text@example.com" required>
+        </div>
+        <div class="form__item">
+          <label for="content">お問い合わせ内容</label>
+        <textarea name="entry.1301211991" id="content" cols="30" rows="10" placeholder="お問い合わせ内容をご記入ください"></textarea>
+        </div>
+        <button class="submit-btn" type="submit">送信</button>
+      </form>
+      <p class="submit-message submit-success">お問い合わせありがとうございます！</p>
+      <p class="submit-message submit-failed">申し訳ありません、送信に失敗しました。</p>
+    </section>
+  </div>
+
+  <!-- jquery --->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
