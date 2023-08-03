@@ -29,9 +29,9 @@
       <h1 class="header__logo"><img src="./img/logo.svg" alt="Sweet Delight"></h1>
       <nav class="header__nav">
         <ul class="header__nav__list">
-          <li class="header__nav__item"><a href="#a-about">About</a></li>
-          <li class="header__nav__item"><a href="#a-menu">Menu</a></li>
-          <li class="header__nav__item"><a href="#a-shop">Shop</a></li>
+          <li class="header__nav__item"><a href="#a-about" class="header__nav__link">About</a></li>
+          <li class="header__nav__item"><a href="#a-menu" class="header__nav__link">Menu</a></li>
+          <li class="header__nav__item"><a href="#a-shop" class="header__nav__link">Shop</a></li>
         </ul>
       </nav>
     </div>
@@ -48,20 +48,18 @@
   <!-- About -->
   <section id="a-about" class="about">
     <div class="inner">
-      <div class="section__title">
-        <h2 class="section__title__main">About</h2>
+      <h2 class="section__title">
+        <span class="section__title__main">About</span>
         <span class="secion__title__sub">ー 当店について ー</span>
-      </div>
+      </h2>
       <div class="about__contents">
         <div class="about__image">
           <img src="./img/about.png" alt="About">
         </div>
         <div class="about__text">
-          <p class="about__text__message">当店では、素材の持つ美味しさや風味を最大限に生かし、
-            シンプルでありながらも、素材の良さを引き出すこだわりのスイーツを提供しています。
+          <p class="about__text__message">当店では、素材の持つ美味しさや風味を最大限に生かし、シンプルでありながらも、素材の良さを引き出すこだわりのスイーツを提供しています。
           </p>
-          <p class="about__text__message">自然な味わいを大切にし、素材を感じさせるスイーツで、
-            心に残るひとときをお過ごしください。
+          <p class="about__text__message">自然な味わいを大切にし、素材を感じさせるスイーツで、心に残るひとときをお過ごしください。
           </p>
         </div>
       </div><!-- about__contents-->
@@ -77,28 +75,34 @@
       </h2>
       <ul class="menu__list">
         <li class="menu__card">
-          <div class="menu__image"><img src="./img/menu1.png" alt="おすすめ ストロベリーケーキ"></div>
-          <h3 class="menu__card__title">
-            <span class="menu__card__title__main">ストロベリーケーキ</span>
-            <span class="menu__card__title__sub">- Strawberry cake -</span>
-          </h3>
-          <p class="menu__card__text"># 旬のあまおうトッピング</p>
+          <div class="menu__card__image"><img src="./img/menu1.png" alt="おすすめ ストロベリーケーキ"></div>
+          <div class="menu__card__text">
+            <h3 class="menu__card__title">
+              <span class="menu__card__title__main">ストロベリーケーキ</span>
+              <span class="menu__card__title__sub">- Strawberry cake -</span>
+            </h3>
+            <p class="menu__card__message"># 旬のあまおうトッピング</p>
+          </div>
         </li>
         <li class="menu__card">
-          <div class="menu__image"><img src="./img/menu2.png" alt="新発売 ブルーベリーチーズケーキ"></div>
-          <h3 class="menu__card__title">
-            <span class="menu__card__title__main">ブルーベリーチーズケーキ</span>
-            <span class="menu__card__title__sub">- Blueberry cheesecake -</span>
-          </h3>
-          <p class="menu__card__text"># フランス産チーズをブレンド</p>
+          <div class="menu__card__image"><img src="./img/menu2.png" alt="新発売 ブルーベリーチーズケーキ"></div>
+          <div class="menu__card__text">
+            <h3 class="menu__card__title">
+              <span class="menu__card__title__main">ブルーベリーチーズケーキ</span>
+              <span class="menu__card__title__sub">- Blueberry cheesecake -</span>
+            </h3>
+          <p class="menu__card__message"># フランス産チーズをブレンド</p>
+          </div>
         </li>
         <li class="menu__card">
           <div class="menu__image"><img src="./img/menu3.png" alt="おすすめ チョコレートケーキ"></div>
-          <h3 class="menu__card__title">
-            <span class="menu__card__title__main">チョコレートケーキ</span>
-            <span class="menu__card__title__sub">- Chocolate cake -</span>
-          </h3>
-          <p class="menu__card__text"># ベルギー産チョコレート使用</p>
+          <div class="menu__card__text">
+            <h3 class="menu__card__title">
+              <span class="menu__card__title__main">チョコレートケーキ</span>
+              <span class="menu__card__title__sub">- Chocolate cake -</span>
+            </h3>
+            <p class="menu__card__message"># ベルギー産チョコレート使用</p>
+          </div>
         </li>
       </ul>
 
@@ -153,7 +157,6 @@
     <div class="footer__copyright">
       <span class="footer__copyright__text">&copy;2023 Sweet Delight.</span>
     </div>
-
   </footer>
 </body>
 </html>
