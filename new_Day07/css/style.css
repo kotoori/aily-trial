@@ -2,7 +2,14 @@
 
 body {
   font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.05em;
+  color: #3c301e;
 }
+
+img{
+  width: 100%;
+}
+
 /*============================
 共通クラス
 ============================*/
@@ -42,6 +49,11 @@ header
   padding: 12px;
 }
 
+.header__logo{
+  max-width: 200px;
+  margin: 0 auto;
+}
+
 .header__nav{
   margin-top: 10px; 
 }
@@ -53,6 +65,13 @@ header
 
 .header__nav__link{
   color: #FFF;
+}
+
+/*============================
+main visual
+============================*/
+.fv{
+
 }
 
 /*============================
@@ -172,7 +191,8 @@ footer
   color: #fff;
 }
 .footer__logo{
-
+  max-width: 200px;
+  margin: 0 auto;
 }
 
 .footer__text{
@@ -212,3 +232,137 @@ footer
 .footer__copyright{
   font-size: 12px;
 }
+
+/*============================
+タブレット、PCサイズの表示
+============================*/
+@media screen and (min-width: 768px){
+  .inner{
+    max-width: 1080px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+
+  .section__heading__main{
+    font-size: 64px;
+  }
+
+  /*============================
+  header(PC)
+  ============================*/
+  .header{
+    padding: 16px;
+  }
+
+  .header__logo{
+    margin: 0;
+  }
+
+  .header__inner{
+    max-width: 1080px;
+    padding: 0 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__nav__list{
+    gap: 40px;
+  }
+  .header__nav__link{
+    transition: opacity 0.3s;
+  }
+
+  .header__nav__link:hover{
+    opacity: 0.7;
+  }
+
+  /*============================
+  About(PC)
+  ============================*/
+  .about{
+    padding: 100px 0;
+  }
+
+  .about__contents{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .about__image{
+    width: 300px;
+  }
+
+  .about__text__contents{
+    margin-top: 0;
+  }
+
+  .about__text{
+    font-size: 15px;
+  }
+
+  .about__text + .about__text{
+    margin-top: 30px;
+  }
+  /*============================
+  Menu(PC)
+  ============================*/
+  .menu{
+    padding: 0 0 100px;
+  }
+  .menu__list{
+    display: flex;
+    gap: 20px;
+  }
+
+  .menu__item + .menu__item{
+    margin-top: 0;
+  }
+
+  /*============================
+  Shop(PC)
+  ============================*/
+  .shop{
+    background-image: url(../img/bg-shop.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+
+  .shop__inner{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .form{
+      display: flex;
+      gap: 20px;
+  }
+
+  .form__submit{
+    margin-top: 0;
+    transition: opacity 0.3s;
+  }
+
+  .form__submit:hover{
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  /*============================
+  footer(PC)
+  ============================*/
+  .footer__text{
+    margin-top: 12px;
+  }
+
+  .footer__nav__list{
+    gap: 40px;
+  }
+
+  .footer__copyright{
+    font-size: 13px;
+  }
+
+}/* (min-width: 768px) */

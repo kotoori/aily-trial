@@ -26,19 +26,21 @@
   <body>
     <!-- header -->
     <header class="header">
-      <h1 class="header__logo"><img src="./img/logo.svg" alt="Sweet delight"></h1>
-      <nav class="header__nav">
-        <ul class="header__nav__list">
-          <li class="header__nav__item"><a href="#about" class="header__nav__link">About</a></li>
-          <li class="header__nav__item"><a href="#Menu" class="header__nav__link">Menu</a></li>
-          <li class="header__nav__item"><a href="#Shop" class="header__nav__link">Shop</a></li>
-        </ul>
-      </nav>
+      <div class="header__inner">
+        <h1 class="header__logo"><img src="./img/logo.svg" alt="Sweet delight"></h1>
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__item"><a href="#about" class="header__nav__link">About</a></li>
+            <li class="header__nav__item"><a href="#Menu" class="header__nav__link">Menu</a></li>
+            <li class="header__nav__item"><a href="#Shop" class="header__nav__link">Shop</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- first view -->
     <div class="fv">
-      <picture>
+      <picture class="fv__picture">
         <source media="(min-width: 768px)" srcset="./img/fv.png">
         <img src="./img/sp/fv.png" alt="素材の美味しさをそのままに Sweet delight">
       </picture>
@@ -55,7 +57,7 @@
           <span class="section__heading__sub">ー 当店について ー</span>
         </h2>
         <div class="about__contents">
-          <img src="./img/about.png" alt="about">
+          <img src="./img/about.png" alt="about" class="about__image">
           <div class="about__text__contents">
             <p class="about__text">当店では、素材の持つ美味しさや風味を最大限に生かし、
               シンプルでありながらも、素材の良さを引き出すこだわりのスイーツを提供しています。
@@ -145,19 +147,19 @@
       <p class="footer__text">ー 各SNS更新中 ー</p>
       <ul class="footer__nav__list">
         <li class="footer__nav__item">
-          <a href="" class="footer__nav__link">
+          <a href="https://www.instagram.com/" target="_blank" class="footer__nav__link">
             <img src="./img/icon-instagram.png" alt="Instagram" class="sns-image">
             <p class="footer__nav__link__text">メニューご案内</p>
           </a>
         </li>
         <li class="footer__nav__item">
-          <a href="" class="footer__nav__link">
+          <a href="https://www.youtube.com/" target="_blank" class="footer__nav__link">
             <img src="./img/icon-youtube.png" alt="youtube" class="sns-image">
             <p class="footer__nav__link__text">制作のウラガワ</p>
           </a>
         </li>
         <li class="footer__nav__item">
-          <a href="" class="footer__nav__link">
+          <a href="https://twitter.com/" target="_blank" class="footer__nav__link">
             <img src="./img/icon-twitter.png" alt="twitter" class="sns-image">
             <p class="footer__nav__link__text">お店の混雑状況</p>
           </a>
