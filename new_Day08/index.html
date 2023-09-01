@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="icon" href="./favicon.ico">
+  <meta name="robots" content="noindex">
+
+  <!-- ページ属性情報 -->
+  <title>Sweet Delight</title>
+  <meta name="description" content="Sweet Delightのご紹介です">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="inner">
+      <div class="header__wrapper">
+        <h1 class="header__logo"><img src="./img/logo.svg" alt="Sweet Delight"></h1>
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__item"><a href="#a-about" class="header__nav__link">About</a></li>
+            <li class="header__nav__item"><a href="#a-menu" class="header__nav__link">Menu</a></li>
+            <li class="header__nav__item"><a href="#a-shop" class="header__nav__link">Shop</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- first view -->
+  <div class="fv">
+    <picture>
+      <source media="(min-width: 768px)" srcset="./img/fv.png">
+      <img src="./img/sp/fv.png" alt="素材の美味しさをそのままに Sweet Delight">
+    </picture>
+  </div>
+
+  <!-- About -->
+  <section id="a-about" class="about">
+    <div class="inner">
+      <h2 class="section__title">
+        <span class="section__title__main">About</span>
+        <span class="secion__title__sub">ー 当店について ー</span>
+      </h2>
+      <div class="about__contents">
+        <div class="about__image">
+          <img src="./img/about.png" alt="About">
+        </div>
+        <div class="about__text">
+          <p class="about__text__message">当店では、素材の持つ美味しさや風味を最大限に生かし、シンプルでありながらも、素材の良さを引き出すこだわりのスイーツを提供しています。
+          </p>
+          <p class="about__text__message">自然な味わいを大切にし、素材を感じさせるスイーツで、心に残るひとときをお過ごしください。
+          </p>
+        </div>
+      </div><!-- about__contents-->
+    </div><!-- inner -->
+  </section>
+
+  <!-- Menu -->
+  <section id="a-menu" class="menu">
+    <div class="inner">
+      <h2 class="section__title">
+        <span class="section__title__main">Menu</span>
+        <span class="secion__title__sub">ー 今月のケーキ ー</span>
+      </h2>
+      <ul class="menu__list">
+        <li class="menu__card">
+          <div class="menu__card__image"><img src="./img/menu1.png" alt="おすすめ ストロベリーケーキ"></div>
+          <div class="menu__card__text">
+            <h3 class="menu__card__title">
+              <span class="menu__card__title__main">ストロベリーケーキ</span>
+              <span class="menu__card__title__sub">- Strawberry cake -</span>
+            </h3>
+            <p class="menu__card__message"># 旬のあまおうトッピング</p>
+          </div>
+        </li>
+        <li class="menu__card">
+          <div class="menu__card__image"><img src="./img/menu2.png" alt="新発売 ブルーベリーチーズケーキ"></div>
+          <div class="menu__card__text">
+            <h3 class="menu__card__title">
+              <span class="menu__card__title__main">ブルーベリーチーズケーキ</span>
+              <span class="menu__card__title__sub">- Blueberry cheesecake -</span>
+            </h3>
+          <p class="menu__card__message"># フランス産チーズをブレンド</p>
+          </div>
+        </li>
+        <li class="menu__card">
+          <div class="menu__image"><img src="./img/menu3.png" alt="おすすめ チョコレートケーキ"></div>
+          <div class="menu__card__text">
+            <h3 class="menu__card__title">
+              <span class="menu__card__title__main">チョコレートケーキ</span>
+              <span class="menu__card__title__sub">- Chocolate cake -</span>
+            </h3>
+            <p class="menu__card__message"># ベルギー産チョコレート使用</p>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+  </section>
+  <!-- Shop -->
+  <section id="a-shop" class="shop">
+    <div class="inner shop__inner">
+      <h2 class="section__title">
+        <span class="section__title__main">Shop</span>
+        <span class="secion__title__sub">ー ショップ情報 ー</span>
+      </h2>
+      <p class="shop__message">
+        ただいま、オンラインストアを準備中です。<br>
+        最新情報は以下より送信いただいた<br>
+        メールアドレスへご案内いたします。
+      </p>
+      <form action="" class="shop__form">
+        <input type="email" name="" id="" class="shop__form__email" placeholder="sample@sample.com">
+        <button class="shop__form__submit">SEND</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer__logo">
+      <img src="./img/logo.svg" alt="Sweet Delight">
+    </div>
+    <p class="foote__text">ー 各SNS更新中 ー</p>
+    <ul class="sns__list">
+      <li class="sns__item">
+        <div class="sns__image">
+          <img src="./img/icon-instagram.png" alt="Instagram メニューご案内">
+        </div>
+        <p class="sns__text">メニューご案内</p>
+      </li>
+      <li class="sns__item">
+        <div class="sns__image">
+          <img src="./img/icon-youtube.png" alt="yotube 制作のウラガワ">
+        </div>
+        <p class="sns__text">制作のウラガワ</p>
+      </li>
+      <li class="sns__item">
+        <div class="sns__image">
+          <img src="./img/icon-twitter.png" alt="Twitter お店の混雑状況">
+        </div>
+        <p class="sns__text">お店の混雑状況</p>
+      </li>
+    </ul>
+    <div class="footer__copyright">
+      <span class="footer__copyright__text">&copy;2023 Sweet Delight.</span>
+    </div>
+  </footer>
+</body>
+</html>

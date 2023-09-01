@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+body {
+  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+}
+/*============================
+共通クラス
+============================*/
+.inner{
+padding: 0 40px;
+}
+
+.section__heading{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section__heading-l{
+  color: #fff;
+}
+
+.section__heading__main{
+  display: block;
+  font-size: 40px;
+}
+
+.section__heading__sub{
+  display: block;
+  font-size: 12px;
+}
+
+/*============================
+header
+============================*/
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(241, 238, 228, 0.25);
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+}
+
+.header__nav{
+  margin-top: 10px; 
+}
+.header__nav__list{
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.header__nav__link{
+  color: #FFF;
+}
+
+/*============================
+About
+============================*/
+.about{
+  padding: 40px 0;
+  background-color: #f1eee4;
+}
+.about__contents{
+
+}
+
+.about__text__contents{
+  margin-top: 20px;
+}
+.about__text{
+  font-size: 14px;
+  line-height: 2;
+}
+
+.about__text + .about__text{
+  margin-top: 16px;
+}
+
+/*============================
+Menu
+============================*/
+.menu{
+  background-color: #f1eee4;
+  padding: 80px 0;
+}
+
+.menu__item + .menu__item{
+  margin-top: 62px;
+}
+
+.menu__text__contents{
+  text-align: center;
+  padding: 16px 10px;
+}
+
+.menu__name__main{
+  display: block;
+  font-size: 18px;
+}
+
+.menu__name__sub{
+  display: block;
+  font-size: 12px;
+  color: #a98c5f;
+  margin-top: 8px;
+}
+
+.menu__text{
+  font-size: 14px;
+  color: #a98c5f;
+  margin-top: 16px;
+}
+
+/*============================
+Shop
+============================*/
+.shop{
+  background-image: url(../img/sp/bg-shop.png);
+  background-position: center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.shop__inner{
+  padding: 0 20px;
+}
+
+.shop__text{
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.form{
+  margin-top: 40px;
+}
+
+.form__input{
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+  padding: 14px;
+}
+
+.form__input::placeholder{
+}
+
+.form__submit{
+  border-radius: 4px;
+  border: none;
+  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+  display: block;
+  margin: 10px auto 0;
+  width: 120px;
+  padding: 12px;
+  color: #fff;
+  background-color: #a98c5f;
+}

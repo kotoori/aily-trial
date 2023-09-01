@@ -1,0 +1,391 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+
+body{
+  font-family: 'Josefin Sans', 'Noto Sans JP', sans-serif;
+  color: #3c301e;
+}
+
+img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  vertical-align: top;  /* 画面下の隙間を消す */
+}
+
+/*===========================
+共通クラス
+===========================*/
+.inner{
+  padding: 0 40px;
+}
+
+.section__title{
+  text-align: center;
+}
+
+.section__title__main{
+  display: block;
+  font-size: 2.5rem;
+}
+
+.secion__title__sub{
+  display: block;
+  font-size: 0.75rem;
+}
+
+/*===========================
+header
+===========================*/
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 12px;
+  border-bottom: 1px solid rgba(241, 238, 228, 0.25);
+  width: 100%;
+  text-align: center;
+}
+
+.header__logo{
+  width: 200px;
+  height: auto;
+}
+
+.header__nav{
+  margin-top: 10px;
+}
+
+.header__nav__list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.header__nav__item{
+
+}
+
+.header__nav__link{
+  text-decoration: none;
+  color: #FFF;
+}
+
+/*===========================
+About
+===========================*/
+.about{
+  padding: 40px 0;
+  background-color: #f1eee4;
+}
+
+.about__contents{
+  margin-top: 40px;
+}
+
+.about__image{
+
+}
+
+.about__text{
+margin-top: 20px;
+}
+
+.about__text__message{
+  font-size: 0.875em;
+  line-height: 2;
+}
+
+.about__text__message + .about__text__message{
+  margin-top: 16px;
+}
+
+/*===========================
+Menu
+===========================*/
+.menu{
+padding: 80px 0;
+background-color: #f1eee4;
+}
+
+.menu__list{
+  margin-top: 40px;
+}
+
+.menu__card{
+
+}
+
+.menu__card + .menu__card{
+  margin-top: 62px;
+}
+
+.menu__card__image{
+
+}
+
+.menu__card__text{
+  padding: 16px 10px;
+}
+.menu__card__title{
+  text-align: center;
+}
+.menu__card__title__main{
+  display: block;
+  font-size: 1.125rem;
+}
+.menu__card__title__sub{
+  display: block;
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: #a98c5f;
+
+}
+.menu__card__message{
+  text-align: center;
+  color: #a98c5f;
+  font-size: 0.875rem;
+  margin-top: 16px;
+}
+
+/*===========================
+Shop
+===========================*/
+.shop{
+  background-image: url(../img/sp/bg-shop.png);
+  background-position: center center;
+  background-size: cover;
+  color: #FFF;
+  padding: 80px 0;
+}
+
+.shop__inner{
+  padding: 0 20px;
+}
+
+.shop__message{
+  font-size: 0.875rem;
+  line-height: 2;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.shop__form{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.shop__form__email{
+  appearance: none;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 14px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'Josefin Sans', 'Noto Sans JP', sans-serif;
+
+}
+
+.shop__form__submit{
+  appearance: none;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 12px 10px;
+  width: 120px;
+  font-family: 'Josefin Sans', 'Noto Sans JP', sans-serif;
+  color: #FFF;
+  background-color: #a98c5f;
+}
+
+/*===========================
+footer
+===========================*/
+.footer{
+  background-color: #3c301e;
+  color: #FFF;
+  padding-top: 46px;
+  text-align: center;
+}
+
+.footer__inner{
+  padding: 0 20px;
+}
+.footer__logo{
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.foote__text{
+  font-size: 0.75rem;
+}
+
+.sns__list{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 0 20px;
+}
+
+.sns__item{
+}
+
+.sns__image{
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+}
+
+.sns__image img{
+  width: 100%;
+  height: auto;
+}
+
+.sns__text{
+  font-size: 0.75rem;
+  margin-top: 12px;
+}
+
+.footer__copyright{
+  border-top: 1px solid rgba(241, 238, 228, 0.25);
+  padding: 12px 0;
+  margin-top: 46px;
+}
+
+.footer__copyright__text{
+  font-size: 0.75rem;
+}
+
+/*===========================
+PC、タブレット用スタイル
+===========================*/
+@media screen and (min-width: 768px){
+
+  body{
+    letter-spacing: 0.05em;
+  }
+  /*===========================
+  共通クラス
+  ===========================*/
+  .inner{
+    max-width: 1080px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+
+  .section__title__main{
+    display: block;
+    font-size: 4rem;
+  }
+  
+  /*===========================
+  header(PC)
+  ===========================*/
+
+
+  .header{
+    padding: 16px;
+  }
+
+  .header__wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header__nav__list{
+    gap: 40px;
+  }
+
+  /*===========================
+  About (PC)
+  ===========================*/
+  .about{
+    padding: 100px 0;
+  }
+
+  .about__contents{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .about__image{
+    width: 300px;
+  }
+
+  .about__text{
+    width: calc(100% - 300px - 40px);
+    margin-top: 0;
+  }
+
+  .about__text__message{
+    font-size: 0.9375rem;
+    line-height: 2;
+  }
+
+  .about__text__message + .about__text__message{
+    margin-top: 30px;
+  }
+  
+  /*===========================
+  Menu (PC)
+  ===========================*/
+  .menu{
+    padding: 0 0 100px;
+    }
+    
+    .menu__list{
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    
+    .menu__card + .menu__card{
+      margin-top: 0;
+    }
+
+  /*===========================
+  Shop (PC)
+  ===========================*/
+  .shop{
+    background-image: url(../img/bg-shop.png);
+    padding: 60px 0;
+  }
+
+  .shop__form{
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 40px auto 0;
+    padding: 0 20px;
+  }
+
+  .shop__form__email{
+  }
+
+  .shop__form__submit{
+    margin-top: 0;
+  }
+
+  /*===========================
+  footer (PC)
+  ===========================*/
+  .foote__text{
+    margin-top: 12px;;
+  }
+
+  .sns__list{
+    gap: 40px;
+  }
+
+  .footer__copyright__text{
+    font-size: 0.8125rem;
+  }
+  
+}/* (min-width: 768px) */
