@@ -1,0 +1,32 @@
+h2{
+	@include global.hs(hp){
+		transition: all 0.3s ease 0s;
+		&:hover{
+			color: global.$color-main;
+
+		}
+	}
+	@include global.hs(hi){
+		&:active{
+			color: global.$color-main;
+
+		}
+
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}

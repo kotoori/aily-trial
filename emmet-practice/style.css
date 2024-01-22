@@ -38,3 +38,12 @@ h1{
 	max-height: 10px;
 	border: 1px solid
 }
+
+h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
