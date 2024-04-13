@@ -1,42 +1,21 @@
-let firstName = '太郎';
-let lastName = '山田';
-// console.log(firstName + " " + lastName + "さん");
-
-console.log(`${firstName} ${lastName}さん`);
-
-function say(firstName, lastName) {
-	console.log(`${firstName} ${lastName}さん、こんにちは`);
+if(true){
+	console.log("true");
 }
-say('太郎', '山田');
-say('花子', '鈴木');
-say('ジョン', 'スミス');
-
-//円の面積を求める計算
-let radius = 10;
-const pai = 3.14;
-
-let area = radius * radius * pai;
-console.log(area);
-
-function calcCircleArea(radius) {
-	const pai = 3.14;
-
-	let area = radius * radius * pai;
-	return area;
+if(false){
+	console.log("false");
 }
-console.log(calcCircleArea(10));
-console.log(calcCircleArea(100));
 
-
-function showMessage(message = 'No message') {
-	console.log(message);
+switch(score){
+	case 1:
+		console.log("1");
+		break;
+	case 2:
+		console.log("2");
+		break;
+	case 10:
+		console.log("10");
+		break;
+	default:
+		console.log("default");
+		break;
 }
-showMessage('おはようございます');
-showMessage('こんにちは');
-showMessage(123);
-showMessage(123 * 10);
-
-function double(num) {
-	return num * 2;
-}
-console.log( double(2));
