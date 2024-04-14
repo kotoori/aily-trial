@@ -1,22 +1,30 @@
-const scores = [89, 56, 78];
-// console.log(scores);
-// console.log(scores.length);
+const scores = {
+	math: 87,
+	english: 78,
+	science: 68
+}
 
-// scores[0] = 10;
-// console.log(scores[0]);
-// console.log(scores[1]);
-// console.log(scores[2]);
+console.log(scores.math);
+console.log(scores['math']);
 
-scores.push(100);
-scores.push("Hello");
-scores.push(true);
-console.log(scores);
+scores.math = 90;
+console.log(scores.math);
 
-scores.pop();
-console.log(scores);
+const allScores = [
+	{math: 87, english: 56, science: 48},
+	{math: 45, english: 76, science: 89},
+	{math: 67, english: 88, science: 78}
+];
 
-scores.shift();
-console.log(scores);
+console.log(allScores);
 
-scores.unshift(100);
-console.log(scores);
+const scores2 = {
+	math: 87,
+	english: 78,
+	science: 68,
+	messageEnglish: function(){
+		console.log(`英語の点数は${this.english}点です`);
+	}
+}
+
+scores2.messageEnglish();
