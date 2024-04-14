@@ -1,16 +1,16 @@
-const prefectures = ["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県", "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県", "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県", "三重県", "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県", "香川県", "愛媛県", "高知県", "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県"];
+let todoList = ['服を買いに行く','写真を撮る', '打ち合わせ', 'JS勉強' , 'react勉強'];
 
-//ofを使って配列の中身を一つずつ取り出す
-// for (let prefecture of prefectures){
-// 	console.log(prefecture);
+//①for ofを使ってtodoListの中身をconsole.logで表示する
+// for(let todo of todoList){
+// 	console.log(todo);
 // }
 
-//カウント
-// for (let i = 0; i < prefectures.length; i++){
-// 	console.log(prefectures[i]);
+//②for文(カウントアップ)を使ってtodoListの中身をconsole.logで表示する
+// for(let i = 0 ; i < todoList.length ; i++){
+// 	console.log(todoList[i]);
 // }
 
-//forEachを使って配列の中身を一つずつ取り出す
-prefectures.forEach(function(prefecture){
-	console.log(prefecture);
+//③forEachを使ってtodoListの中身をconsole.logで表示する
+todoList.forEach(function(todo){
+	console.log(todo);
 });
