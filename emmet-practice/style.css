@@ -1,0 +1,49 @@
+/*
+基本の書き方
+プロパティ名(省略形):値(省略形)
+　※セレクタの中でのみ使用可能
+*/
+
+h1{
+	padding: 10px;
+	padding: 10rem;
+	padding: 10em;
+	padding: 10%;
+	margin: auto;
+	font-size: 16px;
+	font-size: 1rem;
+	display: flex;
+}
+
+h1{
+	/* 値の単位 */
+	padding: 10%;
+	padding: 10%;
+	padding: 10%;
+	
+	/* 値の複数指定 */
+	padding: 10px 20px 10px;
+	border: 1px solid #333;
+
+	/* !important */
+	padding: 10px !important;
+	padding: 10px !important;
+	padding: 10px !important;
+
+	/* プロパティの複数指定 */
+	width: 20px;
+	height: 10px;
+	max-width: 10px;
+	min-width: 10px;
+	max-height: 10px;
+	border: 1px solid
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
