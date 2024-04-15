@@ -1,30 +1,16 @@
-const scores = {
-	math: 87,
-	english: 78,
-	science: 68
-}
+let todoList = ['服を買いに行く','写真を撮る', '打ち合わせ', 'JS勉強' , 'react勉強'];
 
-console.log(scores.math);
-console.log(scores['math']);
+//①for ofを使ってtodoListの中身をconsole.logで表示する
+// for(let todo of todoList){
+// 	console.log(todo);
+// }
 
-scores.math = 90;
-console.log(scores.math);
+//②for文(カウントアップ)を使ってtodoListの中身をconsole.logで表示する
+// for(let i = 0 ; i < todoList.length ; i++){
+// 	console.log(todoList[i]);
+// }
 
-const allScores = [
-	{math: 87, english: 56, science: 48},
-	{math: 45, english: 76, science: 89},
-	{math: 67, english: 88, science: 78}
-];
-
-console.log(allScores);
-
-const scores2 = {
-	math: 87,
-	english: 78,
-	science: 68,
-	messageEnglish: function(){
-		console.log(`英語の点数は${this.english}点です`);
-	}
-}
-
-scores2.messageEnglish();
+//③forEachを使ってtodoListの中身をconsole.logで表示する
+todoList.forEach(function(todo){
+	console.log(todo);
+});
